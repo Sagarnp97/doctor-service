@@ -51,5 +51,12 @@
 
         <input type="submit" value="Add Doctor">
     </form>
+    
+    <h2>Search for Doctor</h2>
+	<form action="searchDoctor" method="get">
+    	Enter Doctor ID: <input type="text" name="id" required>
+    	<input type="submit" value="Search">
+	</form>
+
 </body>
 </html>
